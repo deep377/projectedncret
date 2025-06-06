@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ncert-ai-backend
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
+    envVars:
+      - key: DEEPSEEK_API_KEY
+        sync: false
